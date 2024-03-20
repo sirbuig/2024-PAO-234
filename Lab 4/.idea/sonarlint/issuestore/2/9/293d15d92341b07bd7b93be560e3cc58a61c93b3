@@ -1,0 +1,7 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Î…éß8ò¤Éâå1J$321462d2-c232-4eca-bdc0-49586ce3e1fc
+ˆ
+java:S6201#"@Replace this instanceof check and cast with 'instanceof Cat cat'(Ò­ÎÁıÿÿÿÿ8‡¥Éâå1J$b8ff1716-4a42-4687-9c7f-e271ead5d4cb
+‰
+java:S1126%"AReplace this if-then-else statement by a single return statement.(ˆÜØšúÿÿÿÿ8‰¥Éâå1J$fe814d61-ffe5-44ef-a43f-1e914c9a958a
+ƒ	java:S125)"<This block of commented-out lines of code should be removed.(¼á˜ùÿÿÿÿ8Š¥Éâå1J$7537b9b3-a060-4af8-ad8f-1ba233542920

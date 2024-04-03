@@ -1,0 +1,13 @@
+
+
+java:S1192
+"FDefine a constant instead of duplicating this literal "Gigel" 6 times.(ñ«åüÿÿÿÿ8«ôÊ¡ê1J$e8729b74-9181-44f6-a654-4b8c4e71ac0e
+
+java:S1192
+"HDefine a constant instead of duplicating this literal "Ionescu" 6 times.(ñ«åüÿÿÿÿ8¬ôÊ¡ê1J$45a3d36b-070d-443c-a8c7-2256ad310bf5
+“
+java:S1192
+"KDefine a constant instead of duplicating this literal "0712345678" 3 times.(ñ«åüÿÿÿÿ8¬ôÊ¡ê1J$a779954f-27fb-40ef-ac07-2415d3be3b16
+~	java:S125"<This block of commented-out lines of code should be removed.(ØÀµŞ8¾ôÊ¡ê1J$1c02b516-d533-430e-b63e-821c01591ee3
+r	java:S106"+Replace this use of System.out by a logger.(Ã³“–üÿÿÿÿ8’¾æ¡ê1J$3d09793b-c3b6-48a7-a9f4-85b234670954
+m	java:S106"+Replace this use of System.out by a logger.(çŸªƒ8”¾æ¡ê1J$ad1e6df8-f610-4548-8702-b5c288407fe3

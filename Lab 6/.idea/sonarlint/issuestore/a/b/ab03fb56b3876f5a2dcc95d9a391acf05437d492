@@ -1,0 +1,12 @@
+
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‹Æûö8»¯¢ê1J$7e5ec671-a0cb-4f6f-ad51-1f5dc18267ca
+m	java:S106
+"+Replace this use of System.out by a logger.(ş¥‰8«Ä¹¢ê1J$60c7193b-2278-43c6-a850-9beb4f5f4eea
+l	java:S106"+Replace this use of System.out by a logger.(ãØ‡8«Ä¹¢ê1J$fdeb2d61-2b3a-4600-856b-3669784c7e77
+r	java:S106"+Replace this use of System.out by a logger.(Ö•ºœÿÿÿÿÿ8¬Ä¹¢ê1J$0b324773-1e6b-41a9-a71c-d0b2194beddd
+m	java:S106"+Replace this use of System.out by a logger.(”çª8­Ä¹¢ê1J$47d7d7c5-00a9-428c-94b6-9a2d69f957e2
+l
+java:S1144")Remove this unused private "test" method.(¬ÊµË8®Ä¹¢ê1J$3ff8c943-77a9-4cbd-93d4-b78c856b020e
+s
+java:S1144"0Remove this unused private "anotherTest" method.(œ²…®8®Ä¹¢ê1J$ecb54e15-fa15-432e-aaf8-546d780b7731

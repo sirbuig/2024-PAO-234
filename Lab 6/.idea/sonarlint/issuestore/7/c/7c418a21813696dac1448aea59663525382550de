@@ -1,0 +1,8 @@
+
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ãë‚ıÿÿÿÿ8Åòâ¡ê1J$3c8f1e74-21dd-49b3-acaf-4d46acfe481e
+r	java:S106"+Replace this use of System.out by a logger.(Ë—ÿúÿÿÿÿ8Èòâ¡ê1J$d8351fec-b470-4706-95e1-c6c80ff086dd
+r	java:S106"+Replace this use of System.out by a logger.(ôÅõûÿÿÿÿ8Èòâ¡ê1J$9502ad4a-194b-4af0-bd54-57b81b40361c
+„
+java:S6353;"<Use concise character class syntax '\\d' instead of '[0-9]'.(âÄÀúÿÿÿÿ8Îòâ¡ê1J$83d6819e-9072-4df6-b442-07bc34174c72
+y
+java:S1144."1Remove this unused private "validateName" method.(Ş‘¾íøÿÿÿÿ8Ğòâ¡ê1J$9dc658cc-3db0-4fc1-baa5-3803ea983948

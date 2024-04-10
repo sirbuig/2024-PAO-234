@@ -1,0 +1,12 @@
+
+Ž	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(©­„8ÿÄ¹Ãì1J$39ce2c69-0099-4c2e-818b-78aade308755
+•
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 8‡Å¹Ãì1J$73685739-6466-4c65-a842-3c2e31e10a4f
+j
+java:S1185"(Remove this method to simply inherit it.(™”” 8ˆÅ¹Ãì1J$f3390eda-9f6a-4db0-97b8-f3b4760c08e2
+•
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 8‹Å¹Ãì1J$76ebefe3-228a-4180-8b3f-9dd234d91ca4
+j
+java:S1185"(Remove this method to simply inherit it.(™”” 8‹Å¹Ãì1J$8b98755a-14d1-405d-a48b-2a59c605e83f
+r	java:S106"+Replace this use of System.out by a logger.(Ñù¦Ôûÿÿÿÿ8ŽÅ¹Ãì1J$c5aeb4a5-4e88-4592-b9f8-0d9157372d90
+m	java:S106!"+Replace this use of System.out by a logger.(˜¹Í»8ŽÅ¹Ãì1J$4557a0d3-6acc-470e-83cc-c518ffbf1822

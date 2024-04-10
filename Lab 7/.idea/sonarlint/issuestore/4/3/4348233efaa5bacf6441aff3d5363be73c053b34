@@ -1,0 +1,27 @@
+
+œ
+java:S1192""TDefine a constant instead of duplicating this literal "final of the method" 3 times.(åšÀŸÿÿÿÿÿ8¼ÚÃì1J$fa0e216a-2e20-4ead-891b-e1fa77458a68
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ú§ªúÿÿÿÿ8Ì°ˆÃì1J$534df999-a708-4804-a7e7-c9714105b7b8
+r	java:S106"+Replace this use of System.out by a logger.(½Ë¹ÿùÿÿÿÿ8Î°ˆÃì1J$ea92de33-1826-40ef-b6c3-4fd0ef739d99
+r	java:S106"+Replace this use of System.out by a logger.(¡–òëüÿÿÿÿ8Î°ˆÃì1J$34c83310-8b5c-41d6-a580-844a0e12baa8
+m
+java:S1197"*Move the array designators [] to the type.(Ã¶âù8Ğ°ˆÃì1J$e50cbece-9b7f-4414-b19c-59dacf406ebe
+r	java:S106"+Replace this use of System.out by a logger.(ôÂ¶óúÿÿÿÿ8Ñ°ˆÃì1J$501522c3-be8e-4394-89de-ff24df72c6ab
+r	java:S106""+Replace this use of System.out by a logger.(åšÀŸÿÿÿÿÿ8Ñ°ˆÃì1J$48bb067b-2d0b-4648-85b1-02a693666b14
+m
+java:S1197&"*Move the array designators [] to the type.(Ã¶âù8Ñ°ˆÃì1J$c92a5e69-28e8-4b63-a3d4-48f7553da9b7
+r	java:S106+"+Replace this use of System.out by a logger.(½Ë¹ÿùÿÿÿÿ8Ò°ˆÃì1J$50c8e360-1a26-4db4-821f-e2cdc42f6915
+r	java:S106-"+Replace this use of System.out by a logger.(ôÂ¶óúÿÿÿÿ8Ò°ˆÃì1J$fcb1bd0f-a781-471e-aea6-441deffebd58
+r	java:S1060"+Replace this use of System.out by a logger.(åšÀŸÿÿÿÿÿ8Ò°ˆÃì1J$e5172eab-3f4e-4d06-b5e6-02f786911951
+m
+java:S11974"*Move the array designators [] to the type.(Ã¶âù8Ò°ˆÃì1J$409bfa8b-3e08-4450-987a-474094ad67f3
+r	java:S1068"+Replace this use of System.out by a logger.(®ùèĞıÿÿÿÿ8¬ÖˆÃì1J$5969b34d-425d-4852-ad46-20a2e603110f
+r	java:S106:"+Replace this use of System.out by a logger.(İŞ’×ÿÿÿÿÿ8†ì‹Ãì1J$8ee6fe5f-7eec-490f-b05b-737a6266b2fe
+m	java:S106<"+Replace this use of System.out by a logger.(ö¢Œ†8‰¸Ãì1J$60f7bb00-a27d-46db-a475-a88d6505986c
+r	java:S106?"+Replace this use of System.out by a logger.(åšÀŸÿÿÿÿÿ8ÌÚÃì1J$cb03f145-dc7d-459f-9134-7c05f2428e37
+w
+java:S1144"/Remove this unused private "doTryCatch" method.(§¦ú¡şÿÿÿÿ8×°ˆÃì1J$9082cc7e-ade2-47e9-8efb-03465a8bc43e
+t
+java:S1144"1Remove this unused private "doTryFinally" method.(Ø¯¦£8×°ˆÃì1J$edf08828-a63f-4547-bd5c-fff32eee35f0
+y
+java:S1144%"6Remove this unused private "doTryCatchFinally" method.(’¹œ8×°ˆÃì1J$f2b16b24-3946-4e64-9581-5af8e062fae9

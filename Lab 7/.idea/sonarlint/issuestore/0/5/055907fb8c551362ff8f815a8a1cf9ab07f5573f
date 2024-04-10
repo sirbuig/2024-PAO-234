@@ -1,0 +1,9 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Öõõ³ıÿÿÿÿ8„Ñ£Ãì1J$3c482325-65ad-4d26-b53b-2bd5bef2175f
+]	java:S125"<This block of commented-out lines of code should be removed.(¯¹üÿÿÿÿ8Éİ¦Ãì1
+r	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8âÜÃì1J$c3d0e1b8-d43f-4876-b7ff-ad25ba3ecfc8
+~	java:S125"<This block of commented-out lines of code should be removed.(†€éˆ8’“Ãì1J$150ef99a-9865-4050-a876-02f465501a90
+t
+java:S1128",Remove this unused import 'java.io.IOError'.(ƒ¾Ğ§øÿÿÿÿ8Ş½¢Ãì1J$5cf1913c-0b5c-4d02-92ce-1f1e82b3d3a7
+u
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8Ş½¢Ãì1J$0770453e-502b-4825-827a-3887253e4a28

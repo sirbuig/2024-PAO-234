@@ -1,0 +1,30 @@
+
+Œ
+java:S2583"DChange this condition so that it does not always evaluate to "false"(ÃÑõ©ÿÿÿÿÿ8µ ×Ãì1J$cf9163f1-3d99-4812-876f-df9ad2e9b100
+z
+java:S1854"7Remove this useless assignment to local variable "arr".(Ã¶âù8¶ÕÓÃì1J$2b2a83a6-57e2-449c-8161-35cb911d7555
+
+java:S1854#"9Remove this useless assignment to local variable "nrObj".(‚×š³ûÿÿÿÿ8¤òÚÃì1J$100cd58a-dcc7-4dc8-a721-4c2d4780b447
+x
+java:S1854"5Remove this useless assignment to local variable "a".(®úÿ”8¶ÕÓÃì1J$0917e1c6-f6e3-49b0-a1a4-82ce7bc3d812
+b
+java:S1659"Declare "b" on a separate line.(®úÿ”8·ÕÓÃì1J$5009deb9-ff54-409f-b5ff-4d211ecdc86a
+m
+java:S1197"*Move the array designators [] to the type.(Ã¶âù8¸ÕÓÃì1J$0d133724-40a6-4e40-a2c6-d10ade13dc4d
+k
+java:S1481"(Remove this unused "arr" local variable.(Ã¶âù8¹ÕÓÃì1J$75c53c3d-0076-42f0-a6ac-6c08a9b9f0d2
+~	java:S125	"<This block of commented-out lines of code should be removed.(ŒñÛú8ºÕÓÃì1J$b14433db-08c4-4f19-b0ca-89a5a4f3d917
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(¦©™…ûÿÿÿÿ8ºÕÓÃì1J$12a82a7d-f90c-4f1d-aed7-fe36b6b1b941
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(øõÏçùÿÿÿÿ8ºÕÓÃì1J$ba776773-5005-4cf4-bd1c-ce9630b72f44
+r	java:S106"+Replace this use of System.out by a logger.( ïßøÿÿÿÿ8»ÕÓÃì1J$c69a03bd-b6b7-468a-8114-887d639c86e6
+i
+java:S1481"&Remove this unused "a" local variable.(®úÿ”8»ÕÓÃì1J$6fe3e446-13eb-4f47-9f65-9c3dadf92241
+i
+java:S1481"&Remove this unused "b" local variable.(®úÿ”8»ÕÓÃì1J$0dc21604-bf67-47cb-9bfb-6efb6cedc236
+~	java:S125"<This block of commented-out lines of code should be removed.(£¸õ—8»ÕÓÃì1J$b22459ef-7eb3-4be4-92f1-e03b042c1583
+~	java:S125"<This block of commented-out lines of code should be removed.(úé×é8šÖÃì1J$62af29e4-928c-4bed-a9d5-dff13ba2e42d
+ƒ	java:S125!"<This block of commented-out lines of code should be removed.(â–öúÿÿÿÿ8ä’ØÃì1J$edcd2eea-02ed-487b-9698-6ef65246ec1c
+r
+java:S1481#"*Remove this unused "nrObj" local variable.(‚×š³ûÿÿÿÿ8ªòÚÃì1J$0683dfb5-946f-4f81-b215-10951d10f172
+n
+java:S1144&"+Remove this unused private "divide" method.(œä°Š8½ÕÓÃì1J$3982cb22-4373-42d1-8776-cd9c299a7239

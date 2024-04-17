@@ -1,0 +1,6 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(ÄÍàÌúÿÿÿÿ8“á¾áî1J$9aab98fc-7440-4922-a6e1-c4e227724285
+q
+java:S1481".Remove this unused "resources" local variable.(Î›Äë8®Û¿áî1J$1a1cc925-57f6-444b-9cca-668d579f04c6
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8°Û¿áî1J$cfce768d-1f2b-4bcf-89b2-4e763ea451b0
+r	java:S106"+Replace this use of System.out by a logger.(ı…‡ÿÿÿÿÿ8¹¡¿áî1J$dfe9f816-cc72-484d-b145-af7b914eb19f

@@ -1,0 +1,10 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(צ¿‏תÿÿÿÿ8¦¬ˆגמ1J$c709425b-d748-48ad-a9e7-8e5a3cb9f269
+r	java:S106"+Replace this use of System.out by a logger.(£ןֳ״‏ÿÿÿÿ8°¬ˆגמ1J$883fc9c0-e4f6-4175-ad5b-78aa853df562
+m	java:S106"+Replace this use of System.out by a logger.(­יה8 ÿ‹גמ1J$906616ec-bc51-460e-98f1-c8f6324dbbf0
+™
+java:S1128"QRemove this unused import 'exceptions.gymApp.exception.GymAccessDeniedException'.(¾ג¿üÿÿÿÿ8קÊגמ1J$d57d4365-614e-4067-b5b0-3885bcf3190f
+“
+java:S1128"KRemove this unused import 'exceptions.gymApp.exception.GymClosedException'.(´‘ûÿÿÿÿ8קÊגמ1J$06a8228b-32d4-4078-9f02-733dfd522c39
+x
+java:S1128"6Remove this unused import 'javax.crypto.spec.PSource'.(•¿ֶ8קÊגמ1J$f9b8a1f7-9331-4f60-b8f6-ba0a1fb99aaa

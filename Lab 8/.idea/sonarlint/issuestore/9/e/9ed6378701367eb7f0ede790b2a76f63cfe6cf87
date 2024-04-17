@@ -1,0 +1,14 @@
+
+
+java:S2095'"DUse try-with-resources or close this "Stream" in a "finally" clause.(€‰ώÿÿÿÿ8Χέγξ1J$8e3b71db-52a6-4758-9b2b-6d5bb82ae620
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ν­θϊÿÿÿÿ8Χέγξ1J$a1e457f9-3bb0-4f7d-b070-105e75167c8c
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(µÒΨϊÿÿÿÿ8Χέγξ1J$7e7eedec-787e-455e-b437-b628e4a0829d
+t
+java:S1602'",Remove useless curly braces around statement(€‰ώÿÿÿÿ8’Χέγξ1J$459800cc-9788-4750-80ab-85395ff13899
+
+java:S1612'"@Replace this lambda with method reference 'System.out::println'.(€‰ώÿÿÿÿ8’Χέγξ1J$6d1eba09-eb86-4f5b-9a4d-babedeb6b6cc
+m	java:S106("+Replace this use of System.out by a logger.(λκ†•8“Χέγξ1J$54e3b621-8040-47fc-80cd-d7559c669e8f
+r
+java:S1144"/Remove this unused private "createFile" method.(Ξ™‚8”Χέγξ1J$74e4b018-282e-4423-8e71-8520b103b419
+y
+java:S1144 "1Remove this unused private "createFolder" method.(Πβ―ώώÿÿÿÿ8”Χέγξ1J$3d07b838-5066-41d7-9d9b-9cff93dcce87

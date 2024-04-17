@@ -1,0 +1,26 @@
+
+~	java:S125"<This block of commented-out lines of code should be removed.(£–Λ8ÿΠµγξ1J$ac2e8cfb-7821-45a8-a4d9-552de7f39d9e
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ΟΙΚΊϊÿÿÿÿ8€Ρµγξ1J$f3eea314-f766-46bc-aada-a413159d2cb5
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ϊπέ ϋÿÿÿÿ8€Ρµγξ1J$c5128337-8c4c-4f61-b5e8-a2dbb9881130
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(§σρΊϋÿÿÿÿ8€Ρµγξ1J$15782048-0569-4b9c-8293-43636d174118
+m	java:S106'"+Replace this use of System.out by a logger.(¤›Ά8‡Ρµγξ1J$a35e97c8-9bf0-43ca-af10-4f7d61e9b08f
+r	java:S1062"+Replace this use of System.out by a logger.(ΗΓ§εώÿÿÿÿ8Ρµγξ1J$38f49bc9-730e-4813-b9dd-9de6d128e36e
+n
+java:S1481;"&Remove this unused "i" local variable.(ΎΨΰιόÿÿÿÿ8‹Ρµγξ1J$32a159cd-adde-4a2a-8e50-6cd7ed4be3b7
+r	java:S106I"+Replace this use of System.out by a logger.(ΗΓ§εώÿÿÿÿ8Ρµγξ1J$997c5f01-35ea-4fe4-9c8d-a4ff05a5c3b0
+r	java:S106^"+Replace this use of System.out by a logger.(ρ—Έ½ϊÿÿÿÿ8Ρµγξ1J$1fafbd4a-bb41-40d3-8015-48111f7a341a
+r	java:S106s"+Replace this use of System.out by a logger.(ΗΓ§εώÿÿÿÿ8Ρµγξ1J$96edc1d0-2e8e-4a40-bd9e-f41a381e594b
+
+java:S1128">Remove this unused import 'java.nio.charset.StandardCharsets'.(οήΫ8²δ¶γξ1J$65f99c8e-6403-490c-8323-3099c4ccceda
+s
+java:S1144."+Remove this unused private "m2Read" method.(©“ÿ‘ϊÿÿÿÿ8“Ρµγξ1J$1e8bea6a-f272-454e-b7cc-23ab53fecc4e
+o
+java:S1144:",Remove this unused private "m2Write" method.(¥―8“Ρµγξ1J$b9ef61b9-3cc2-4b07-b74e-13bf1da8716f
+s
+java:S1144E"+Remove this unused private "m3Read" method.(Υ”μ»ϋÿÿÿÿ8“Ρµγξ1J$9b7d4e02-7488-48fa-a448-606cd737251a
+o
+java:S1144Q",Remove this unused private "m3Write" method.(δίω¬8“Ρµγξ1J$59c59a5d-bf0e-4d7b-8860-f516e1a36f30
+s
+java:S1144Z"+Remove this unused private "m4Read" method.(Φπ•αϊÿÿÿÿ8“Ρµγξ1J$38c393c8-44ef-4c05-80c3-4316c23bb35a
+o
+java:S1144f",Remove this unused private "m4Write" method.(‹‹ο8“Ρµγξ1J$cb739ab6-6b63-45a4-8992-0a82c6dfe707

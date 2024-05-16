@@ -1,0 +1,14 @@
+
+’
+java:S2095$"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‚Ûæ·8ðëžã÷1J$ec73598b-db46-4370-82f8-f520aa72a0fc
+—
+java:S2095L"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Äš¹öúÿÿÿÿ8ïëžã÷1J$d697d06b-4540-471f-bd35-de4af9a6fac9
+—
+java:S2095["OUse try-with-resources or close this "CallableStatement" in a "finally" clause.(‡šÝ¶ûÿÿÿÿ8ðëžã÷1J$aa923ab7-c782-4d56-ba2c-d0e3184028c2
+—
+java:S20952"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÎÄ¼Ýýÿÿÿÿ8ïëžã÷1J$7f25f52f-e1e7-48ab-a1d4-7b5ce60c6ab0
+’
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‚Ûæ·8ïëžã÷1J$e9b31f8f-61dd-4591-b9e9-5ad794c0fe00
+b
+java:S6905."Don't use the query "SELECT *".(“Ù¼È8ùëžã÷1J$bf1e33a5-72fe-4ad0-b18a-85f6d6621882
+m	java:S106a"+Replace this use of System.out by a logger.(£œËå8ÿëžã÷1J$75921180-847f-45f8-a528-f7d8954a52af

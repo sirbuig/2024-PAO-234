@@ -1,0 +1,12 @@
+
+
+java:S2095."GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ş¨„ñ1J$7a12d6f4-fab9-4dba-a685-b80f42e73610
+
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ş¨„ñ1J$255f1e31-7417-459d-a4f9-49b116dda880
+
+java:S2095""GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ş¨„ñ1J$06ca0d32-af31-4ad4-8e75-5d3d68ebde3a
+a
+java:S6905*"Don't use the query "SELECT *".(î¬—28Ôà¹¾÷1J$151b40ca-5be1-4a14-b050-5ed2b346f9e3
+r	java:S1062"+Replace this use of System.out by a logger.(÷ıÇïÿÿÿÿÿ8ˆş¨„ñ1J$8e8b0821-641c-4313-aecd-a9f9428a3504
+m	java:S1063"+Replace this use of System.out by a logger.(éú¢£8ˆş¨„ñ1J$19a59841-4b42-428e-b752-2dfdba5ca8b5
+r	java:S1064"+Replace this use of System.out by a logger.(Şæ¯Èşÿÿÿÿ8‰ş¨„ñ1J$d3812084-e2cb-40dc-b40f-05ef70f8d8fc

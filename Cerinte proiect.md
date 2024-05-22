@@ -11,6 +11,9 @@ Condiția de punctare a proiectelor:
 
 ## Prezentare: 29 mai
 
+## Programări prezentare: [aici](https://unibucro0-my.sharepoint.com/:x:/g/personal/adrian-alexandru_apostol_unibuc_ro/Eeop-Rt1fBZFl-0csNlnYooBduRtkuJLaojefnOY1U2XMQ?e=IarUL9) 
+(pentru a edita fișierul, trebuie să fiți autentificați cu contul @s.unibuc.ro)
+
 ## Etapa 1
 
 ### 1. Definirea sistemului

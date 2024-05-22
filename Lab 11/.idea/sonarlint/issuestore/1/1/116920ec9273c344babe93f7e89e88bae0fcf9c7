@@ -1,0 +1,23 @@
+
+”	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷’€øüÿÿÿÿ8”·Ä„ú1J$f6f455d2-7a7a-498e-90c3-6db02df52db6
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹¿¿)8•·Ä„ú1J$66020681-5898-47a1-941d-084ab1838106
+y
+java:S1854"6Remove this useless assignment to local variable "s4".(Ï’¦ì8š·Ä„ú1J$45e5df9b-c701-4db9-8e21-279208d40d78
+~
+java:S1854"6Remove this useless assignment to local variable "s3".(ë«†ºûÿÿÿÿ8š·Ä„ú1J$f89e362f-a1d3-4c91-89f3-e6334860cf3e
+m	java:S106"+Replace this use of System.out by a logger.(‹«å¤8œ·Ä„ú1J$8df20fac-cbf6-44a6-b035-b71b3f8c1985
+m	java:S106"+Replace this use of System.out by a logger.(Ó‹ì8œ·Ä„ú1J$b0d3da7d-4a84-4ba4-8d36-2b64326260b3
+m	java:S106"+Replace this use of System.out by a logger.(É³¦Ş8œ·Ä„ú1J$1dd82026-0e1b-493d-a7dc-53bb64acc7bf
+r	java:S106"+Replace this use of System.out by a logger.(ş´œéşÿÿÿÿ8·Ä„ú1J$3710f18b-aabb-4737-8e0f-9ae7383f48f5
+~
+java:S1612";Replace this lambda with method reference 'LocalDate::now'.(÷ô§ 8Ÿ·Ä„ú1J$2bd8acb5-9ed4-4903-b9c3-53f11d5f488e
+r	java:S106"+Replace this use of System.out by a logger.(ŸëËøÿÿÿÿ8Ÿ·Ä„ú1J$23ae6d15-4726-4d0d-bf47-32607fadb0d7
+r	java:S106"+Replace this use of System.out by a logger.(¹‰Ñöùÿÿÿÿ8 ·Ä„ú1J$f0d7ded1-3b0a-49d5-9dd2-332a38115178
+‡
+java:S1612"?Replace this lambda with method reference 'StringBuilder::new'.(ë«†ºûÿÿÿÿ8 ·Ä„ú1J$37364e7e-cc02-47b0-a4bf-a21f41f8ded0
+o
+java:S1481"'Remove this unused "s3" local variable.(ë«†ºûÿÿÿÿ8¡·Ä„ú1J$6e294ef6-ba2c-46d1-9b64-33b07627e6ec
+j
+java:S1481"'Remove this unused "s4" local variable.(Ï’¦ì8¡·Ä„ú1J$2fb030f0-5a4b-40d2-9c17-964ba990c47c
+™
+java:S4276!"QRefactor this code to use the more specialised Functional Interface 'IntSupplier'(õË”ÿÿÿÿÿ8¢·Ä„ú1J$afc35bd6-d08a-4f74-8c5e-77db40ccb877

@@ -1,0 +1,29 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÉÞÄãúÿÿÿÿ8â¼Ò…ú1J$23de00d0-0073-408c-bdaa-92b6ea6cab64
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹¿¿)8ã¼Ò…ú1J$afa9cb2f-6a4c-4417-949c-426ada4575d1
+…
+java:S1854"BRemove this useless assignment to local variable "doubleToString".(Ê™¹Ú8ê¼Ò…ú1J$96f54ca7-a09b-4973-892d-6f9fb09b590d
+£
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(øÈøÿýÿÿÿÿ8ì¼Ò…ú1J$e41403bb-2c24-460c-be77-0cbe82988011
+r	java:S106"+Replace this use of System.out by a logger.(ú“¿‡ýÿÿÿÿ8ì¼Ò…ú1J$adf79e5a-45ec-4ed1-86fa-66b16f7a6516
+r	java:S106"+Replace this use of System.out by a logger.(üÔµÐüÿÿÿÿ8í¼Ò…ú1J$0369f585-469b-4de1-b0e9-965f05762419
+v
+java:S1481"3Remove this unused "doubleToString" local variable.(Ê™¹Ú8î¼Ò…ú1J$8d212a99-e8c3-42bb-a282-db95f5c31dae
+r	java:S106"+Replace this use of System.out by a logger.(”Ù¨¦þÿÿÿÿ8î¼Ò…ú1J$b70d33cb-55a6-4f71-b84f-45891ff851eb
+m	java:S106"+Replace this use of System.out by a logger.(ôêÄà8î¼Ò…ú1J$8f80ceac-2de8-4afa-9476-96d354b434f3
+ž
+java:S4276"\Refactor this code to use the more specialised Functional Interface 'BinaryOperator<String>'(ø¢Ë
+8î¼Ò…ú1J$39e32cc2-3807-4900-a210-de00e161607b
+}
+java:S1612";Replace this lambda with method reference 'String::concat'.(ø¢Ë
+8ï¼Ò…ú1J$e829c1c0-3f11-4d18-bea0-c1ac3ba24c57
+¤
+java:S4276"\Refactor this code to use the more specialised Functional Interface 'BinaryOperator<String>'(´óÔçýÿÿÿÿ8ð¼Ò…ú1J$171ad46f-e569-4e34-aab1-9b9719354b64
+r	java:S106"+Replace this use of System.out by a logger.(òÇš‡þÿÿÿÿ8ð¼Ò…ú1J$d07b7fd3-5d45-47e8-aed8-f71fd3c4fa00
+m	java:S106"+Replace this use of System.out by a logger.(ÕñŸÓ8ð¼Ò…ú1J$a2707700-b784-4971-bb03-67a82db6a749
+¥
+java:S4276!"]Refactor this code to use the more specialised Functional Interface 'BinaryOperator<Integer>'(ÔûÈÙûÿÿÿÿ8ð¼Ò…ú1J$7a49ed32-e1cf-40dd-b52a-d1eead74259d
+m	java:S106""+Replace this use of System.out by a logger.(ŠöÇ¨8ð¼Ò…ú1J$3f0b9b71-e069-4983-91a2-142fa87b9a0d
+½
+java:S6204+"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8ò¼Ò…ú1J$dcdc17b8-70ab-4f1c-8e8f-d514fe16e15b
+m	java:S106-"+Replace this use of System.out by a logger.(ÞÒ©Ø8ò¼Ò…ú1J$e218b5b7-13c7-4c01-a1d0-b98fa4dd45b1

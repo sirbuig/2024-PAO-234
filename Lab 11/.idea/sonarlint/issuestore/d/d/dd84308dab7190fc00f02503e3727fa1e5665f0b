@@ -1,0 +1,12 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(õó¬ıÿÿÿÿ8¨«ğ…ú1J$3ace9f96-f4b6-42b6-8ff4-f399ab1c9586
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹¿¿)8ª«ğ…ú1J$430da796-f901-4ca5-8952-cb53897b2e63
+š
+java:S4276"WRefactor this code to use the more specialised Functional Interface 'IntBinaryOperator'(¯éà8¯«ğ…ú1J$78ca4ca3-fff9-47d3-88bc-324cd435d88e
+l	java:S106"+Replace this use of System.out by a logger.(¯ôš8°«ğ…ú1J$b95bda7e-cf75-45c8-b944-9f7a85b5b749
+r	java:S106"+Replace this use of System.out by a logger.(ÀÔ şùÿÿÿÿ8°«ğ…ú1J$2846cb36-5f9e-4ede-8fd4-09f2e6190670
+y
+java:S1612"6Replace this lambda with method reference 'Math::pow'.(¾”¤å8±«ğ…ú1J$f767ae0d-71f9-44a2-8ab8-a4f2c87e6097
+m	java:S106"+Replace this use of System.out by a logger.(ë¥Â·8˜£ò…ú1J$bb9af11d-9c19-44c2-8406-88496b178b3d
+m	java:S106"+Replace this use of System.out by a logger.(†şŞş8˜£ò…ú1J$6d9acac9-b270-4e52-ab0f-c2b58b45eef8
+m	java:S106"+Replace this use of System.out by a logger.(ƒà²8Ö¢ô…ú1J$3bc364ab-6c0e-4ee1-bd97-9fe8a98f5990

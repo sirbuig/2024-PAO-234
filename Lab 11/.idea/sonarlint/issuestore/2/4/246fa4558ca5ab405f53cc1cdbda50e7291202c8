@@ -1,0 +1,44 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(èõ¦Ëùÿÿÿÿ8­Ì°„ú1J$2d1650a6-d526-4151-b53e-ddb53871059d
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹¿¿)8®Ì°„ú1J$b327b99c-f86e-4289-88b8-a5e59ff707a9
+‹
+java:S1854&"CRemove this useless assignment to local variable "negatePredicate".(üºìÝøÿÿÿÿ8¶Ì°„ú1J$1db1eef0-e65c-4cf3-9bf8-4977e4f04c1e
+y
+java:S1854""6Remove this useless assignment to local variable "p2".(þá¦ë8¶Ì°„ú1J$4ef40e4b-492e-4361-8281-44a206c9efb4
+~
+java:S1854!"6Remove this useless assignment to local variable "p1".(Ð¶Ïðûÿÿÿÿ8¶Ì°„ú1J$3500be87-328f-47f8-9e2e-28e1c35a6583
+€
+java:S1854">Remove this useless assignment to local variable "isPositive".(úïÞN8¶Ì°„ú1J$88b53a43-98d7-4210-a23e-cbce73ddf7db
+…
+java:S1854"BRemove this useless assignment to local variable "isDivisibleBy3".(›ºŸæ8¶Ì°„ú1J$445c36e4-d077-414d-ad45-c469ec3ee6b3
+†
+java:S1854">Remove this useless assignment to local variable "isNegative".(²ê™›úÿÿÿÿ8¶Ì°„ú1J$a39cbb39-37ff-4952-abbb-afc34ae59bbd
+†
+java:S1854"CRemove this useless assignment to local variable "stringPredicate".(™˜ëÉ8¶Ì°„ú1J$5a77dc2a-bfd4-438a-abcf-4bfbbe326ea5
+m	java:S106"+Replace this use of System.out by a logger.(¹ñ¶ƒ8¸Ì°„ú1J$399b4200-12a6-4de5-98f0-d793066e1047
+r	java:S106"+Replace this use of System.out by a logger.(‘¤Öçþÿÿÿÿ8¸Ì°„ú1J$32196b09-1904-476e-bdba-f86c3a53d7f3
+m	java:S106"+Replace this use of System.out by a logger.(†± Ç8¸Ì°„ú1J$80482b16-90c6-4382-bec6-ca5df0618422
+w
+java:S1481"4Remove this unused "stringPredicate" local variable.(™˜ëÉ8¹Ì°„ú1J$9fafe2e1-5fb1-4426-8676-05131295adc0
+w
+java:S1481"/Remove this unused "isNegative" local variable.(²ê™›úÿÿÿÿ8¹Ì°„ú1J$736a2aea-6f48-4dc7-afab-894308674b82
+v
+java:S1481"3Remove this unused "isDivisibleBy3" local variable.(›ºŸæ8ºÌ°„ú1J$ac091d44-25c4-4feb-a649-369138a52791
+q
+java:S1481"/Remove this unused "isPositive" local variable.(úïÞN8ºÌ°„ú1J$76e6d703-5137-47c1-946e-b576b3d1970b
+r	java:S106"+Replace this use of System.out by a logger.(˜“¥Þüÿÿÿÿ8ºÌ°„ú1J$3e042465-4a24-4df3-8a1a-d1f9dc7cac80
+o
+java:S1481!"'Remove this unused "p1" local variable.(Ð¶Ïðûÿÿÿÿ8»Ì°„ú1J$1f7f25fd-6849-4736-9f5c-726d85f66fb7
+j
+java:S1481""'Remove this unused "p2" local variable.(þá¦ë8»Ì°„ú1J$71e9bf56-9f2d-4f5f-b2e1-6ab262c10a88
+|
+java:S1481&"4Remove this unused "negatePredicate" local variable.(üºìÝøÿÿÿÿ8»Ì°„ú1J$3332223d-360a-422b-a8a1-568744f9a932
+l	java:S106+"+Replace this use of System.out by a logger.(¨²àh8¼Ì°„ú1J$7e9cb1a7-aad6-4872-85bb-d7a468cae201
+r	java:S106,"+Replace this use of System.out by a logger.(ÕŸã²ýÿÿÿÿ8¼Ì°„ú1J$e3c2030b-1205-4539-a96a-f8249747b372
+r	java:S106."+Replace this use of System.out by a logger.(áÖµ„þÿÿÿÿ8½Ì°„ú1J$dd2d96a5-588b-4370-bb95-dcc82f67bcb9
+r	java:S106/"+Replace this use of System.out by a logger.(ãÅî¼ûÿÿÿÿ8¹Ç²„ú1J$fe458191-bc52-4be3-b9c4-fd98767058fe
+•
+java:S42762"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ƒŸê¿8½Ì°„ú1J$1c70c9fb-1bca-4028-a3a6-31457e08168a
+r	java:S1065"+Replace this use of System.out by a logger.(·ùßóýÿÿÿÿ8ºÇ²„ú1J$3500e8c6-159f-4389-b892-2f92365d7e33
+w
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8¾Ì°„ú1J$d701c2b3-22db-437f-bafa-fe64549bd9ad

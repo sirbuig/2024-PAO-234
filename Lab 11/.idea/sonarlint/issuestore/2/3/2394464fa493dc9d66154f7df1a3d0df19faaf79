@@ -1,0 +1,17 @@
+
+‘
+java:S1192"IDefine a constant instead of duplicating this literal "test1234" 5 times.(ğç€…ùÿÿÿÿ8ùœŒ„ú1J$82ee730a-9e11-4374-a1d8-142da3ecbbbf
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¨¿ãÙ8ûœŒ„ú1J$45d5563c-59c9-47a2-b026-60f393fbe5b7
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹¿¿)8üœŒ„ú1J$fe86bad0-a887-4484-8135-cb30f7ee60be
+r	java:S106
+"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8ƒŒ„ú1J$5ff3df18-d4fa-4ac9-821c-8e8d480101e0
+r	java:S106"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8„Œ„ú1J$041c4735-23a8-43a1-94f2-831a41015d08
+r	java:S106"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8„Œ„ú1J$118117d2-53c9-4acf-9639-e3673bf826e9
+r	java:S106"+Replace this use of System.out by a logger.(Ù¿éûÿÿÿÿ8…Œ„ú1J$91172f58-cc3c-4224-b8b0-fbb51691afe0
+r	java:S106"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8…Œ„ú1J$366855a6-80cf-4446-b75a-533dd7ab0535
+€
+java:S1612"=Replace this lambda with method reference 'String::endsWith'.(Œåä 8Œ„ú1J$1e16b00c-55e1-4897-95f8-b982367a78fe
+r	java:S106"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8ç„ú1J$94a0312f-d0e9-4a48-8f57-ba11d708c9b5
+€
+java:S1612"=Replace this lambda with method reference 'String::endsWith'.(½óß8¨ƒ„ú1J$0333e70d-c758-4c0a-b779-ff667ebb3c6b
+r	java:S106!"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8©ƒ„ú1J$c7de3d9d-5531-44bb-b8b2-afaeb32e4f66

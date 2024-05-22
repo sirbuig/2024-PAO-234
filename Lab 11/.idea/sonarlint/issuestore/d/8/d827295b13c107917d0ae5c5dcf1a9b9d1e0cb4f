@@ -1,0 +1,27 @@
+
+o
+java:S1192*"MDefine a constant instead of duplicating this literal "My demo text" 3 times.(è¥µâÿÿÿÿÿ8¥Ÿ …ú1
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Á®ÕÉ8Á®›…ú1J$e4699f75-c15e-42dd-af8a-491ff5226608
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹¿¿)8Ä®›…ú1J$a193598b-e348-4cc7-a610-38d82d95c4b0
+ˆ
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(•Å¯¢ıÿÿÿÿ8Í®›…ú1J$3053ade6-7513-47f6-9fde-8393bff56eb3
+r	java:S106"+Replace this use of System.out by a logger.(•Å¯¢ıÿÿÿÿ8Î®›…ú1J$b9d55af2-7c5d-46ed-bb82-6c4844132e8b
+r	java:S106"+Replace this use of System.out by a logger.(¹Ä›³ıÿÿÿÿ8Î®›…ú1J$8be5d985-59f4-45ae-8253-cef39d147a21
+r	java:S106"+Replace this use of System.out by a logger.(ùÂŞ“üÿÿÿÿ8Ï®›…ú1J$944535b4-3ae6-454b-ad6f-3314759a6af3
+m	java:S106"+Replace this use of System.out by a logger.(Åõ–…8Ï®›…ú1J$10d37d6d-8ef6-4672-805b-d7a00b22f309
+r	java:S106"+Replace this use of System.out by a logger.(¨Ä–ûÿÿÿÿ8Ï®›…ú1J$fef8e84f-c285-4d56-970c-36c68245bda1
+r	java:S106"+Replace this use of System.out by a logger.(÷Ëèáıÿÿÿÿ8Ï®›…ú1J$ef699d92-923f-4bee-b21b-9dabe6e2e2c5
+¤
+java:S4276#"\Refactor this code to use the more specialised Functional Interface 'ObjIntConsumer<String>'(Ñô©µùÿÿÿÿ8Ñ®›…ú1J$8a9d9f70-7e87-43c0-8a69-6abb59a922a1
+}
+java:S1612#"5Replace this lambda with method reference 'map::put'.(Ñô©µùÿÿÿÿ8Ñ®›…ú1J$2b1f6ce2-5833-49e7-a515-6a9283757f56
+¤
+java:S4276$"\Refactor this code to use the more specialised Functional Interface 'ObjIntConsumer<String>'(µá Ãùÿÿÿÿ8Ò®›…ú1J$e74290a5-3971-4c05-95e2-528b2e79aaef
+m	java:S106("+Replace this use of System.out by a logger.(µˆœÑ8Ò®›…ú1J$3ec192fc-6ed0-4c81-bf41-b12f822127ef
+l	java:S1060"+Replace this use of System.out by a logger.(¤ì»8Ó®›…ú1J$8c9859aa-35f3-4963-9166-36ebff5bc5b4
+r	java:S1061"+Replace this use of System.out by a logger.(å˜˜üÿÿÿÿ8Ó®›…ú1J$10b34650-f276-4e54-aa06-af492138f1a7
+¤
+java:S42768"\Refactor this code to use the more specialised Functional Interface 'ObjIntConsumer<String>'(°ó¶‹úÿÿÿÿ8Õ®›…ú1J$d7fe23b4-b8e7-482e-926f-b32f76e6099d
+m	java:S106;"+Replace this use of System.out by a logger.(´Æ…¡8Û®›…ú1J$fa7847b6-6534-46cc-83a4-d50a0312f42c
+r	java:S106>"+Replace this use of System.out by a logger.(È×ª•úÿÿÿÿ8Ã…ú1J$2a95116e-4016-4471-89b2-4a419cea5f88
+m	java:S106A"+Replace this use of System.out by a logger.(©ËÔ½8¹»…ú1J$7ffde8c1-d7f1-4c93-94aa-c6b68b421c0a

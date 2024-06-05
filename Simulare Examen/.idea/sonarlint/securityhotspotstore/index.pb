@@ -1,0 +1,31 @@
+
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+P
+ src/main/java/ex2/Automobil.java,9\d\9dda72cf74b3866e2956de751d9ad569d36735fa
+K
+src/main/java/ex2/Main.java,7\d\7d0bf6565a5cc7864b2513c3c02a0504212f4848
+O
+src/main/java/ex3/exemplu_1.txt,9\f\9fe06c38062819a68b0f672edfa8b1a106280bd0
+O
+src/main/java/ex3/exemplu_2.txt,4\1\413beb131288911b257142b9f2f1cbd27325e173
+O
+src/main/java/ex3/exemplu_3.txt,e\8\e8e2e7801416b9221c46611a9d2be62ec3348ef7
+K
+src/main/java/ex3/Main.java,2\5\250702c8730433c31956fdc064c7bd9ec9250970
+U
+%src/main/java/ex3/FindWordInFile.java,0\5\051caac15e24350c1fb6cdbffe4eee60fb82f00f
+c
+3src/main/java/ex4/config/DatabaseConfiguration.java,d\6\d60ee88882b1fb6f6f1b7f9bda86a1ba51fdb7fd
+e
+5src/main/java/ex4/config/SetupDataUsingStatement.java,9\1\91a57b50f0d2733ab3f2d6180a8d90070e2ae0a1
+K
+src/main/java/ex1/Main.java,2\5\25d218a7d93ac6839f659f46799709073648f9a5
+R
+"src/main/java/ex4/config/Main.java,9\6\965bc57c0c1cfd2fedb8af1b24b04854a66662cd
+K
+src/main/java/ex4/Main.java,9\1\9118eaa6eb3408111209bedda5944e7c37d1fc4e
+N
+src/main/java/ex4/Angajat.java,f\8\f89ad485ba86208d775d74f987379833dc95af20
+\
+,src/main/java/ex4/DatabaseConfiguration.java,d\e\de44cd910bd0395f4a275b4af1fb6c87986856bc

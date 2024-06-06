@@ -11,8 +11,6 @@ Condiția de punctare a proiectelor:
 
 ## Prezentare: 29 mai
 
-## Programări prezentare: [aici](https://1drv.ms/x/s!AiQUY0Ny8AOFjtFi2Z7zU2kPWfgx4g?e=AcFQUn) 
-
 ## Etapa 1
 
 ### 1. Definirea sistemului

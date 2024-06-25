@@ -2,7 +2,7 @@ package ex3.domain;
 
 public class Animal {
 
-    private int age;
+    private final int age;
     private String name;
     protected String species;
 

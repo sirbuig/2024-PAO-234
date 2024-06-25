@@ -23,7 +23,7 @@ class testClone {
         try {
             clone.clone();  // => will throw CloneNotSupportedException
         } catch (CloneNotSupportedException e) {
-            System.out.println("Clone not supported:" + e.toString());
+            System.out.println("Clone not supported:" + e);
         }
 
         MyCloneClass myCloneClass = new MyCloneClass();

@@ -8,7 +8,9 @@ public class Exemplu1 {
         // type nume[]
 
         int[] v1, v4;
-        int v2[], v3[], v5;
+        int[] v2;
+        int[] v3;
+        int v5;
 
         v1 = new int[10];
         int[] v6 = new int[20];
@@ -25,7 +27,7 @@ public class Exemplu1 {
         v7[2] = 19;
         //v7[15] = -1; // primim ArrayIndexOutOfBoundsException
 
-        double x1[] = new double[]{ 11, 12, 15, 26, 37.2, 19};
+        double[] x1 = new double[]{ 11, 12, 15, 26, 37.2, 19};
         double[] x2 = new double[]{};
 
         double sum = calculeazaSuma(x1);
@@ -45,7 +47,7 @@ public class Exemplu1 {
         return suma;
     }
 
-    static double calculeazaSuma2(double array[]) {
+    static double calculeazaSuma2(double[] array) {
         double suma = 0;
         for (double i:array) {
             suma += i;

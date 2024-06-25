@@ -23,7 +23,7 @@ public class HandleExceptionExamples {
     }
 
     private static void doTryFinally() {
-        int arr[] = new int[5];
+        int[] arr = new int[5];
 
         try {
             arr[12] = 50;
@@ -35,7 +35,7 @@ public class HandleExceptionExamples {
     }
 
     private static void doTryCatchFinally() {
-        int arr[] = new int[5];
+        int[] arr = new int[5];
 
         try {
             arr[12] = 50;
@@ -49,7 +49,7 @@ public class HandleExceptionExamples {
     }
 
     private static void doTest() {
-        int arr[] = new int[5];
+        int[] arr = new int[5];
         try {
             arr[12] = 50;
         } catch (ArrayIndexOutOfBoundsException | NullPointerException e) {

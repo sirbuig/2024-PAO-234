@@ -6,7 +6,7 @@ public class PriceFilter implements Filterable<Double>{
 
     @Override
     public Product[] filter(Product[] products, Double value) {
-        Product filtered[] = new Product[0];
+        Product[] filtered = new Product[0];
 
         for(Product product:products) {
             if(product.getPrice() == value) {

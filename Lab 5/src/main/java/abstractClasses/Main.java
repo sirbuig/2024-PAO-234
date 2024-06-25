@@ -36,6 +36,6 @@ public class Main {
         circle.sayHello();
         rectangle.sayHello();
 
-        System.out.println(rectangle.toString());
+        System.out.println(rectangle);
     }
 }

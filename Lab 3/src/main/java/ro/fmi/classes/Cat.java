@@ -41,6 +41,6 @@ class MainCat {
         cat2.name = "StillTom";
         System.out.println(cat2.name);
 
-        System.out.println(cat2.toString());
+        System.out.println(cat2);
     }
 }

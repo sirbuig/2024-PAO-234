@@ -2,11 +2,11 @@ package database.domain;
 
 public class Person {
 
-    private int id;
+    private final int id;
 
-    private String name;
+    private final String name;
 
-    private double age;
+    private final double age;
 
     public Person(int id, String name, double age) {
         this.id = id;

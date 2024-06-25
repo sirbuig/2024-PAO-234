@@ -4,7 +4,7 @@ public class Circle extends Shape {
 
     private static final double PI = 3.14;
 
-    private double radius;
+    private final double radius;
 
     public Circle (double radius) {
         this.radius = radius;

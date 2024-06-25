@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class Universitate {
 
-    private String nume;
+    private final String nume;
 
-    private Departament[] departaments; // compozitia
+    private final Departament[] departaments; // compozitia
 
     public Universitate(String nume, Departament[] departaments) {
         this.nume = nume;

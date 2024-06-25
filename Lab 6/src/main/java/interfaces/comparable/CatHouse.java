@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class CatHouse {
 
     public static void main(String[] args) {
-        Cat cats[] = {
+        Cat[] cats = {
           new Cat("Luna", 7),
           new Cat("Tom", 5),
           new Cat("Lucy", 2),

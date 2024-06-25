@@ -4,11 +4,11 @@ public class Exemplu1 {
 
     public static void main(String[] args) {
         String empty1 = "";
-        String empty2 = new String();
+        String empty2 = "";
 
         String s1 = "hello";
-        String s2 = new String("hello");
-        String s3 = new String(s2);
+        String s2 = "hello";
+        String s3 = s2;
         char[] ch = {'h', 'e','l', 'l', 'o'};
         String s4 = new String(ch);
         String s5 = "hello";
@@ -44,7 +44,7 @@ public class Exemplu1 {
         String s6 = "abc" + "def";
         System.out.println(s6);
 
-        String result = new String();
+        String result = "";
         char[] vowels = {'a','e','i', 'o', 'u'};
 
         for (char vowel: vowels) {

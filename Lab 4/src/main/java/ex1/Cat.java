@@ -32,12 +32,8 @@ public class Cat {
             return false;
         }
 
-        if (o instanceof Cat) {
-            Cat cat = (Cat) o;
-            if (name.equals(cat.name) && age == cat.age) {
-                return true;
-            }
-            return false;
+        if (o instanceof Cat cat) {
+            return name.equals(cat.name) && age == cat.age;
             //return name.equals(cat.name);
         }
         else {

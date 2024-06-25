@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class ProductService {
 
-    private Product[] products = new Product[10];
+    private final Product[] products = new Product[10];
 
     public ProductService() {
         initializeProducts();

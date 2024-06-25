@@ -10,7 +10,7 @@ import java.time.LocalTime;
 
 public class GymService {
 
-    private Gym gym;
+    private final Gym gym;
 
     public GymService(int capacity) {
         this.gym = new Gym();

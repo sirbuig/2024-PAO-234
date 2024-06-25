@@ -11,7 +11,7 @@ public class Exemplu2 {
         }
         System.out.println(result);
 
-        System.out.println(result.toString());
+        System.out.println(result);
         System.out.println(result.capacity());
 
         StringBuilder sb1 = new StringBuilder(25);

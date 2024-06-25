@@ -6,9 +6,9 @@ import java.util.Random;
 
 public class CommonResource {
 
-    private List<Integer> buffer;
+    private final List<Integer> buffer;
 
-    private int capacity;
+    private final int capacity;
 
     public CommonResource() {
         this.buffer = new ArrayList<>();

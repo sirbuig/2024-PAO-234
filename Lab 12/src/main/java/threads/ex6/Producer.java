@@ -4,7 +4,7 @@ public class Producer extends Thread {
 
     private final String name;
 
-    private CommonResource resource;
+    private final CommonResource resource;
 
     public Producer(String name, CommonResource resource)   {
         this.name = name;

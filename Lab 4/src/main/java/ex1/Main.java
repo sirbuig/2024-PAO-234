@@ -10,8 +10,8 @@ public class Main {
         System.out.println(cat1 == cat2);
         System.out.println(cat1.equals(cat2));
 
-        System.out.println(cat2.toString());
-        System.out.println(cat3.toString());
+        System.out.println(cat2);
+        System.out.println(cat3);
 
         System.out.println(cat1.hashCode());
         System.out.println(cat2.hashCode());

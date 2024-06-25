@@ -8,7 +8,7 @@ public class NameFilter implements Filterable <String> {
         Product[] filtered = new Product[0];
 
         for( Product product : products ) {
-            if (product.getName().toLowerCase().equals(value.toLowerCase())) {
+            if (product.getName().equalsIgnoreCase(value)) {
                 filtered = Arrays.copyOf(filtered, filtered.length + 1);
                 filtered[filtered.length - 1] = product;
             }

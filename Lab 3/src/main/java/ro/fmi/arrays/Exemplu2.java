@@ -13,8 +13,9 @@ public class Exemplu2 {
 
     public static void main(String[] args) {
         int[][] a;
-        int b[][];
-        int[] c[], d;
+        int[][] b;
+        int[][] c;
+        int[] d;
 
         a = new int[3][3];
         int[][] e = new int[][] {{14}, {12, 13, 11}, {1}, {1,2,3,4,5,6}};
@@ -29,7 +30,7 @@ public class Exemplu2 {
         afiseazaDinNouMatrice(b);
     }
 
-    static void afiseazaDinNouMatrice(int array[][]) {
+    static void afiseazaDinNouMatrice(int[][] array) {
         for (int[] row:array) {
             for (int elem: row) {
                 System.out.print(elem);

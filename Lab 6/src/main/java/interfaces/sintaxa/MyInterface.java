@@ -1,16 +1,16 @@
 package interfaces.sintaxa;
 
-public abstract interface MyInterface {
+public interface MyInterface {
 
-    public final static double PI = 3.14;
+    double PI = 3.14;
 
-    public abstract void doSomething();
+    void doSomething();
 
-    public default void sayHello() {
+    default void sayHello() {
         System.out.println("Hello!");
     }
 
-    public static void anotherHello() {
+    static void anotherHello() {
         System.out.println("Another Hello!");
     }
 

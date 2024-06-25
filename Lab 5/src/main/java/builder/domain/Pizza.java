@@ -25,7 +25,7 @@ public class Pizza {
     }
 
     public static class Builder {
-        private Pizza pizza = new Pizza();
+        private final Pizza pizza = new Pizza();
 
         public Pizza build() {
             return this.pizza;

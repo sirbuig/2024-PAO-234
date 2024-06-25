@@ -11,13 +11,13 @@ import java.util.TreeSet;
 
 public class SetService {
 
-    private Set<Integer> hashSet = new HashSet<>();
+    private final Set<Integer> hashSet = new HashSet<>();
 
-    private Set<Integer> treeSet = new TreeSet<>();
+    private final Set<Integer> treeSet = new TreeSet<>();
 
-    private Set<Integer> linkedHashSet = new LinkedHashSet<>();
+    private final Set<Integer> linkedHashSet = new LinkedHashSet<>();
 
-    private Set<Student> studentSet = new TreeSet<>();
+    private final Set<Student> studentSet = new TreeSet<>();
 
     public void doOperationsOnHashSet() {
 

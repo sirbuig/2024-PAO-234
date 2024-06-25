@@ -6,7 +6,7 @@ public class ZooService {
 
     Animal[] animals;
     private int lastIndex;
-    private int maximNoOfAnimals;
+    private final int maximNoOfAnimals;
 
     public ZooService(int maximNoOfAnimals) {
         this.animals = new Animal[maximNoOfAnimals];

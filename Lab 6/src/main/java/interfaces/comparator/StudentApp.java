@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 public class StudentApp {
     public static void main(String[] args) {
-        Student students[] = {
+        Student[] students = {
                 new Student("Ion", "Pop", 20),
                 new Student("Dan", "Popa", 19),
                 new Student("Ana", "Stan", 22),

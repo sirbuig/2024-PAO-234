@@ -11,8 +11,8 @@ import java.util.List;
 
 public class ListService {
 
-    private List<String> names = new ArrayList<>();
-    private List<Integer> numbers = new LinkedList<>();
+    private final List<String> names = new ArrayList<>();
+    private final List<Integer> numbers = new LinkedList<>();
 
     public void doOperationsOnArrayList() {
         System.out.println(names.isEmpty());

@@ -6,18 +6,18 @@ public class Animal {
     private String name;
     protected String species;
 
-    public Animal (int age) {
+    public Animal(int age) {
         this.age = age;
         this.species = "feralCats";
     }
 
-    public Animal (int age, String name) {
+    public Animal(int age, String name) {
         this.age = age;
         this.name = name;
     }
 
-    public Animal (int age, String name, String species) {
-        this (age, name);
+    public Animal(int age, String name, String species) {
+        this(age, name);
         this.species = species;
     }
 
@@ -26,8 +26,8 @@ public class Animal {
         return "Animal: age - " + age + ", name - " + name + ", species - " + species;
     }
 
-    public void eat (int food) {
-        System.out.println("This animal is eating " + food+ "kg of food per day");
+    public void eat(int food) {
+        System.out.println("This animal is eating " + food + "kg of food per day");
     }
 
     public double getAverageWeight() {

@@ -11,7 +11,7 @@ public class Cat {
         numberOfCats++;
     }
 
-    public Cat (String name, int age) {
+    public Cat(String name, int age) {
         this.age = age;
         this.name = name;
         System.out.println("This was a cat with properties");
@@ -19,12 +19,12 @@ public class Cat {
     }
 
     public String displayCat() {
-        return "Cat: name = "+this.name + " , age = " + this.age;
+        return "Cat: name = " + this.name + " , age = " + this.age;
     }
 
     @Override
     public String toString() {
-        return "Cat: name = "+this.name + " , age = " + this.age;
+        return "Cat: name = " + this.name + " , age = " + this.age;
     }
 }
 

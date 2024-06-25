@@ -4,7 +4,7 @@ public class Bus extends Car {
 //    int seats;
 //    int doors;
 
-    public Bus( int registrationNumber, String model, String yearOfPurchase) {
+    public Bus(int registrationNumber, String model, String yearOfPurchase) {
         super(registrationNumber, model, yearOfPurchase);
         this.seats = 50;
         this.doors = 3;

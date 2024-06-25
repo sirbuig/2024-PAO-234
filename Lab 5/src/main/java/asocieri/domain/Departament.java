@@ -30,7 +30,7 @@ public class Departament {
     }
 
     @Override
-    public String toString () {
+    public String toString() {
         return "Departament: nume = " + nume + ", profesori = " + Arrays.toString(profesori);
     }
 }

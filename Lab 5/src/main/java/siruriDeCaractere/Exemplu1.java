@@ -9,7 +9,7 @@ public class Exemplu1 {
         String s1 = "hello";
         String s2 = "hello";
         String s3 = s2;
-        char[] ch = {'h', 'e','l', 'l', 'o'};
+        char[] ch = {'h', 'e', 'l', 'l', 'o'};
         String s4 = new String(ch);
         String s5 = "hello";
 
@@ -45,9 +45,9 @@ public class Exemplu1 {
         System.out.println(s6);
 
         String result = "";
-        char[] vowels = {'a','e','i', 'o', 'u'};
+        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
 
-        for (char vowel: vowels) {
+        for (char vowel : vowels) {
             result = result.concat(String.valueOf(vowel));
         }
         System.out.println(result);

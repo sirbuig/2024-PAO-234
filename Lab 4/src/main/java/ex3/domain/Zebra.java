@@ -2,22 +2,22 @@ package ex3.domain;
 
 public class Zebra extends Animal {
 
-    public Zebra (int age) {
+    public Zebra(int age) {
         super(age);
         this.species = "other";
     }
 
-    public Zebra () {
+    public Zebra() {
         this(7);
     }
 
-    public Zebra (String name) {
-        super (5, name);
+    public Zebra(String name) {
+        super(5, name);
     }
 
     @Override
-    public void eat (int food) {
-        System.out.println("This zebra is eating " + food+ "kg of food per day");
+    public void eat(int food) {
+        System.out.println("This zebra is eating " + food + "kg of food per day");
     }
 
     public double getAverageWeight() {

@@ -4,9 +4,9 @@ public class Exemplu2 {
 
     public static void main(String[] args) {
         StringBuilder result = new StringBuilder();
-        char[] vowels = {'a','e','i', 'o', 'u'};
+        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
 
-        for (char vowel: vowels) {
+        for (char vowel : vowels) {
             result = result.append(vowel);
         }
         System.out.println(result);
@@ -18,5 +18,8 @@ public class Exemplu2 {
         System.out.println(sb1.capacity());
         StringBuilder sb2 = new StringBuilder("abc");
         System.out.println(sb2.capacity());
+
+        StringBuilder sb3 = new StringBuilder("abcdef");
+        System.out.println(sb3.capacity());
     }
 }

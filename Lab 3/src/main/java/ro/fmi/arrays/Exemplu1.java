@@ -18,7 +18,7 @@ public class Exemplu1 {
 
         // v7[0] , v7[1], .... v7[5] = v7[v7.length-1]
 
-        for (int i = 0 ; i < v7.length ; i++){
+        for (int i = 0; i < v7.length; i++) {
             System.out.println(v7[i] + " ");
         }
         System.out.println();
@@ -27,7 +27,7 @@ public class Exemplu1 {
         v7[2] = 19;
         //v7[15] = -1; // primim ArrayIndexOutOfBoundsException
 
-        double[] x1 = new double[]{ 11, 12, 15, 26, 37.2, 19};
+        double[] x1 = new double[]{11, 12, 15, 26, 37.2, 19};
         double[] x2 = new double[]{};
 
         double sum = calculeazaSuma(x1);
@@ -41,7 +41,7 @@ public class Exemplu1 {
 
     static double calculeazaSuma(double[] array) {
         double suma = 0;
-        for (double i:array) {
+        for (double i : array) {
             suma += i;
         }
         return suma;
@@ -49,7 +49,7 @@ public class Exemplu1 {
 
     static double calculeazaSuma2(double[] array) {
         double suma = 0;
-        for (double i:array) {
+        for (double i : array) {
             suma += i;
         }
         return suma;

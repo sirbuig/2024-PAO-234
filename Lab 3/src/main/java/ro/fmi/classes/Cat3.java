@@ -7,7 +7,7 @@ public class Cat3 {
     }
 
     public Cat3(String name) {
-        System.out.println("constructor "+ name);
+        System.out.println("constructor " + name);
     }
 
     static {

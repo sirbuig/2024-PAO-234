@@ -9,13 +9,13 @@ public class Cat {
         this.name = name;
     }
 
-    public Cat(String name, int age){
+    public Cat(String name, int age) {
         this.name = name;
         this.age = age;
         this.color = Color.WHITE;
     }
 
-    public Cat (String name, int age, Color color) {
+    public Cat(String name, int age, Color color) {
         this.name = name;
         this.age = age;
         this.color = color;
@@ -23,7 +23,7 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Cat: name - "+ name + ", age - " + age + ", color - " + color ;
+        return "Cat: name - " + name + ", age - " + age + ", color - " + color;
     }
 
     @Override
@@ -35,8 +35,7 @@ public class Cat {
         if (o instanceof Cat cat) {
             return name.equals(cat.name) && age == cat.age;
             //return name.equals(cat.name);
-        }
-        else {
+        } else {
             return false;
         }
     }
@@ -47,7 +46,7 @@ public class Cat {
 
         int sum = 0;
 
-        for (char c:letters) {
+        for (char c : letters) {
             sum += c;
         }
         return sum;

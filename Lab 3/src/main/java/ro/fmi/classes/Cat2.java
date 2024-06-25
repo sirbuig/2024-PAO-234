@@ -7,16 +7,15 @@ public class Cat2 {
     private String name;
     private int age;
 
-    public Cat2 () {
+    public Cat2() {
     }
 
-    public Cat2 (String name, int age) {
+    public Cat2(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public int getAge()
-    {
+    public int getAge() {
         return this.age;
     }
 

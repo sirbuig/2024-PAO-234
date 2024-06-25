@@ -9,10 +9,10 @@ public class MySingleton {
     }
 
     public static MySingleton getInstance() {
-        if (instance == null ) {
+        if (instance == null) {
             instance = new MySingleton();
         }
 
-        return  instance;
+        return instance;
     }
 }

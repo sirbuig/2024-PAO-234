@@ -17,10 +17,10 @@ public class Pizza {
     @Override
     public String toString() {
         return "Pizza: name = " + name + "," +
-                "size = "+ size + ", " +
-                "tomatoTopping: "+tomatoTopping+ "," +
-                "oliveTopping: " +oliveTopping+", " +
-                "mozarellaTopping: "+ mozarellaTopping + "," +
+                "size = " + size + ", " +
+                "tomatoTopping: " + tomatoTopping + "," +
+                "oliveTopping: " + oliveTopping + ", " +
+                "mozarellaTopping: " + mozarellaTopping + "," +
                 "pepperoniTopping: " + pepperoniTopping;
     }
 

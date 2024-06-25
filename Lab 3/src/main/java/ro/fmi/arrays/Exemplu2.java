@@ -3,8 +3,8 @@ package ro.fmi.arrays;
 public class Exemplu2 {
 
     static void afiseazaMatrice(int[][] array) {
-        for (int i=0 ;i<array.length ; i++){
-            for (int j=0 ; j< array[i].length ; j++){
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
                 System.out.print(array[i][j] + " ");
             }
             System.out.println();
@@ -18,7 +18,8 @@ public class Exemplu2 {
         int[] d;
 
         a = new int[3][3];
-        int[][] e = new int[][] {{14}, {12, 13, 11}, {1}, {1,2,3,4,5,6}};
+        int[][] e = new int[][]{{14}, {12, 13, 11}, {1}, {1, 2, 3, 4, 5, 6}};
+        // fiecare rand poate avea dimensiuni diferite
         b = new int[3][];
         b[0] = new int[3];
         b[1] = new int[7];
@@ -28,12 +29,13 @@ public class Exemplu2 {
 
         //afiseazaMatrice(b);
         afiseazaDinNouMatrice(b);
+        afiseazaDinNouMatrice(e);
     }
 
     static void afiseazaDinNouMatrice(int[][] array) {
-        for (int[] row:array) {
-            for (int elem: row) {
-                System.out.print(elem);
+        for (int[] row : array) {
+            for (int elem : row) {
+                System.out.print(elem + " ");
             }
             System.out.println();
         }

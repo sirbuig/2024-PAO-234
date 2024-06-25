@@ -29,6 +29,6 @@ public class Profesor {
 
     @Override
     public String toString() {
-        return "Profesor: id= " + id + ", nume = " +nume + ";";
+        return "Profesor: id= " + id + ", nume = " + nume + ";";
     }
 }

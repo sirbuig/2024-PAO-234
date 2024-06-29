@@ -19,7 +19,7 @@ public class IoMultipleFiles {
         Path otherPath = Paths.get(otherFileName);
 
         try (BufferedWriter writer = Files.newBufferedWriter(path);
-            BufferedWriter otherWriter = Files.newBufferedWriter(otherPath, StandardOpenOption.APPEND)) {
+             BufferedWriter otherWriter = Files.newBufferedWriter(otherPath, StandardOpenOption.APPEND)) {
 
             writer.write("Hello2");
             writer.newLine();

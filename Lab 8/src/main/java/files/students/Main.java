@@ -2,12 +2,7 @@ package files.students;
 
 import files.students.domain.Student;
 
-import java.io.EOFException;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 
 public class Main {
 
@@ -27,7 +22,7 @@ public class Main {
                 out.writeObject(student);
             }
         } catch (IOException e) {
-           e.printStackTrace();
+            e.printStackTrace();
         }
     }
 

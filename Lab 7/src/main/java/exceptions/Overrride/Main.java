@@ -1,6 +1,5 @@
 package exceptions.Overrride;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.SQLException;
 
@@ -13,9 +12,7 @@ public class Main {
             parent.mySecondMethod();
         } catch (IOException e) {
             e.printStackTrace();
-        }
-
-        catch (SQLException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
     }

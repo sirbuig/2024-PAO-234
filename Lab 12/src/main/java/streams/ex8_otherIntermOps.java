@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 public class ex8_otherIntermOps {
 
     public static void main(String[] args) {
-        Stream<String > names = Stream.of("Robert", "Jack", "Jane", "Jackson");
+        Stream<String> names = Stream.of("Robert", "Jack", "Jane", "Jackson");
         names.sorted()
                 .forEach(System.out::println);
 
@@ -21,7 +21,7 @@ public class ex8_otherIntermOps {
                 .sorted()
                 .forEach(System.out::println);
 
-        List<Integer> ints = Arrays.asList(1,2,3,4,5,6,7,6,7,1,8,9,10);
+        List<Integer> ints = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 6, 7, 1, 8, 9, 10);
         ints.stream()
                 .distinct()
                 .peek(i -> System.out.println("distinct value " + i + " "))
@@ -30,13 +30,13 @@ public class ex8_otherIntermOps {
                 .filter(n -> n % 2 == 0)
                 .forEach(System.out::println);
 
-        ints = Arrays.asList(1,2,3,4,50,6,7,6,7,1,8,9,10);
+        ints = Arrays.asList(1, 2, 3, 4, 50, 6, 7, 6, 7, 1, 8, 9, 10);
         ints.stream()
                 .takeWhile(x -> x < 50)
                 .forEach(System.out::println);
 
         System.out.println("==========");
-        ints = Arrays.asList(1,2,3,4,50,6,7,6,7,1,8,9,10);
+        ints = Arrays.asList(1, 2, 3, 4, 50, 6, 7, 6, 7, 1, 8, 9, 10);
         ints.stream()
                 .dropWhile(x -> x < 50)
                 .forEach(System.out::println);

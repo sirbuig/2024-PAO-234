@@ -9,24 +9,24 @@ public class Main {
         List<String> messages = Arrays.asList("Hello", "PAO", "Students", "!");
 
         //Sleeping thread
-        for(String message : messages)  {
+        for (String message : messages) {
             Thread.sleep(2000);
             System.out.println(message);
         }
 
-        for(String message : messages)  {
+        for (String message : messages) {
             try {
                 Thread.sleep(2000);
-            } catch (InterruptedException exception)  {
+            } catch (InterruptedException exception) {
                 return;
             }
             System.out.println(message);
         }
 
-        for(String message : messages)  {
+        for (String message : messages) {
             Thread.sleep(2000);
             System.out.println(message);
-            if(Thread.interrupted())    {
+            if (Thread.interrupted()) {
                 return;
             }
         }

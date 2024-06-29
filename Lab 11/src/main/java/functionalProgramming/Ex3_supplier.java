@@ -21,7 +21,7 @@ public class Ex3_supplier {
         DoubleSupplier numbers4 = () -> Math.PI;
         System.out.println(numbers4.getAsDouble());
 
-        Supplier<LocalDate> s1 = () ->LocalDate.now();
+        Supplier<LocalDate> s1 = () -> LocalDate.now();
         Supplier<LocalDate> s2 = LocalDate::now; //references a static method
         System.out.println(s1.get());
         System.out.println(s2.get());

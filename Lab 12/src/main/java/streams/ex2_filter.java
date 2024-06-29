@@ -10,13 +10,13 @@ public class ex2_filter {
 
     public static void main(String[] args) {
         List<String> names = Arrays.asList("Robert", "Jack", "Jane", "Jackson");
-        Stream< String> result = names.stream().filter(name -> name.startsWith("J"));
+        Stream<String> result = names.stream().filter(name -> name.startsWith("J"));
         //result.forEach(System.out::println);
 
         result.filter(name -> name.contains("Jack"))
                 .forEach(System.out::println);
 
-        List<Integer> integers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         integers.stream()
                 .filter(n -> n % 2 == 0)
                 .filter(n -> n < 8)

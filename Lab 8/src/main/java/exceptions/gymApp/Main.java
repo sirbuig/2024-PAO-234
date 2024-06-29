@@ -1,11 +1,7 @@
 package exceptions.gymApp;
 
 import exceptions.gymApp.domain.Member;
-import exceptions.gymApp.exception.GymAccessDeniedException;
-import exceptions.gymApp.exception.GymClosedException;
 import exceptions.gymApp.service.GymService;
-
-import javax.crypto.spec.PSource;
 
 public class Main {
 

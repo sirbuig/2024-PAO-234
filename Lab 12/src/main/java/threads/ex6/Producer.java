@@ -6,13 +6,13 @@ public class Producer extends Thread {
 
     private final CommonResource resource;
 
-    public Producer(String name, CommonResource resource)   {
+    public Producer(String name, CommonResource resource) {
         this.name = name;
         this.resource = resource;
     }
 
     @Override
-    public void run()   {
+    public void run() {
         //produce
         try {
             resource.produce();

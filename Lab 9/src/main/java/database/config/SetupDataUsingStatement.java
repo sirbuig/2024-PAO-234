@@ -9,12 +9,12 @@ public class SetupDataUsingStatement {
 
     public void createTable() {
         String createTableSql = """
-            CREATE TABLE IF NOT EXISTS person (
-                id int PRIMARY KEY AUTO_INCREMENT,
-                name varchar(40),
-                age double
-            )
-            """;
+                CREATE TABLE IF NOT EXISTS person (
+                    id int PRIMARY KEY AUTO_INCREMENT,
+                    name varchar(40),
+                    age double
+                )
+                """;
 
         Connection connection = DatabaseConfiguration.getDatabaseConnection();
 
@@ -46,7 +46,7 @@ public class SetupDataUsingStatement {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(selectSql);
 
-            while(resultSet.next()) {
+            while (resultSet.next()) {
                 System.out.println("Id: " + resultSet.getInt(1));
                 System.out.println("Name: " + resultSet.getString(2));
                 System.out.println("Age: " + resultSet.getDouble(3));

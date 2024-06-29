@@ -4,7 +4,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         Function difFunction = (int a, int b) -> a - b;
-        System.out.println(difFunction.apply(10,8));
+        System.out.println(difFunction.apply(10, 8));
 
         Function multiplyFunction = (int a, int b) -> {
             return a * b;
@@ -12,7 +12,7 @@ public class Calculator {
         System.out.println(multiplyFunction.apply(10, 20));
 
         SumFunction sumFunction = new SumFunction();
-        System.out.println(sumFunction.apply(10,17));
+        System.out.println(sumFunction.apply(10, 17));
 
         calculate(multiplyFunction);
         calculate((a, b) -> a % b);

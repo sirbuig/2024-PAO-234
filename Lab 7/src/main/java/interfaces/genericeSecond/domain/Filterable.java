@@ -1,6 +1,6 @@
 package interfaces.genericeSecond.domain;
 
-public interface Filterable<T>{
+public interface Filterable<T> {
 
     Product[] filter(Product[] products, T value);
 }

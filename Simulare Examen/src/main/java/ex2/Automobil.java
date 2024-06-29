@@ -12,7 +12,8 @@ public class Automobil {
 
     private Integer pret;
 
-    public Automobil() {}
+    public Automobil() {
+    }
 
     public Automobil(String marca, String model, Integer capacitate, Integer pret) {
         this.marca = marca;

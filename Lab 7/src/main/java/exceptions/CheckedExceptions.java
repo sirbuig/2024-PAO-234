@@ -1,8 +1,6 @@
 package exceptions;
 
-import java.io.IOError;
 import java.io.IOException;
-import java.sql.SQLException;
 
 //IOException, SQLException
 public class CheckedExceptions {

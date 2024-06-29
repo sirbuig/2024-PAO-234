@@ -1,5 +1,22 @@
 package functionalProgramming;
 
+@FunctionalInterface
+interface MyFunctionalInterface<T> {
+
+    boolean method(T t);
+}
+
+
+@FunctionalInterface
+interface MySecondFunctionalInterface<T> {
+    T method();
+}
+
+@FunctionalInterface
+interface MyThirdFunctionalInterface<T, U> {
+    boolean method(T t, U u);
+}
+
 public class Ex1_lambda {
 
     // (list of parameters -> {body of the function})
@@ -31,22 +48,5 @@ public class Ex1_lambda {
         MyThirdFunctionalInterface<String, String> i6 = (String a, String b) -> a.endsWith(b);
         result = i6.method("test1234", "34");
         System.out.println(result);
-     }
-}
-
-
-@FunctionalInterface
-interface MyFunctionalInterface<T> {
-
-    boolean method(T t);
-}
-
-@FunctionalInterface
-interface MySecondFunctionalInterface <T> {
-    T method();
-}
-
-@FunctionalInterface
-interface MyThirdFunctionalInterface< T, U>{
-    boolean method(T t, U u);
+    }
 }

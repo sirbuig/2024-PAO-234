@@ -12,7 +12,7 @@ public class Main {
                 new Automobil("Dacia", "Logan", 1400, 20000),
                 new Automobil("Toyota", "C-HR", 1800, 32000),
                 new Automobil("Toyota", "Yaris", 1500, 24000),
-                new Automobil("Lada","Carton", 500, 4200)
+                new Automobil("Lada", "Carton", 500, 4200)
         );
 
         //afisati automobilele care costa cel putin 5000€, în ordinea descrescatoare a preturilor
@@ -41,6 +41,6 @@ public class Main {
                 .max(Comparator.comparingInt(Automobil::getPret))
                 .get()
                 .getPret();
-        System.out.println("Pretul maxim pentru un Audi este: "+ pretMaxim);
+        System.out.println("Pretul maxim pentru un Audi este: " + pretMaxim);
     }
 }

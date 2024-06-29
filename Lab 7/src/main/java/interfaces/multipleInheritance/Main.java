@@ -1,7 +1,5 @@
 package interfaces.multipleInheritance;
 
-import javax.swing.Action;
-
 public class Main {
 
     public static void main(String[] args) {

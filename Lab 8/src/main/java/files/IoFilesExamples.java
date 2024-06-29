@@ -1,16 +1,6 @@
 package files;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.RandomAccessFile;
-import java.nio.charset.StandardCharsets;
+import java.io.*;
 import java.util.Scanner;
 
 public class IoFilesExamples {
@@ -35,7 +25,7 @@ public class IoFilesExamples {
 
     public static void m1(String filePath) {
         try (Scanner scanner = new Scanner(new File(filePath))) {
-            while(scanner.hasNext()) {
+            while (scanner.hasNext()) {
                 System.out.println(scanner.nextLine());
             }
         } catch (FileNotFoundException e) {
@@ -46,7 +36,7 @@ public class IoFilesExamples {
     private static void m2Read(String filePath) {
         try (FileReader reader = new FileReader(filePath)) {
             int i;
-            while (( i = reader.read()) != -1) {
+            while ((i = reader.read()) != -1) {
                 System.out.print((char) i);
             }
         } catch (IOException e) {
@@ -69,7 +59,7 @@ public class IoFilesExamples {
     private static void m3Read(String filePath) {
         try (FileInputStream inputStream = new FileInputStream(filePath)) {
             int i;
-            while ((i = inputStream.read())!=-1) {
+            while ((i = inputStream.read()) != -1) {
                 System.out.print((char) i);
             }
         } catch (IOException e) {
@@ -90,7 +80,7 @@ public class IoFilesExamples {
     private static void m4Read(String filePath) {
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
-            while((line = reader.readLine()) != null) {
+            while ((line = reader.readLine()) != null) {
                 System.out.println(line);
             }
         } catch (IOException e) {
@@ -101,7 +91,7 @@ public class IoFilesExamples {
     //fluxuri de procesare -> buffers
     private static void m4Write(String filePath, String line) {
         // try(BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) -> face append la continutul deja existent al fisierului
-        try(BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             writer.write(line);
         } catch (IOException e) {
             e.printStackTrace();
@@ -111,18 +101,17 @@ public class IoFilesExamples {
     private static void m5Read(String filePath) {
         try (RandomAccessFile randomAccessFile = new RandomAccessFile(filePath, "rw")) {
             int i;
-            while ((i = randomAccessFile.read())!= -1) {
+            while ((i = randomAccessFile.read()) != -1) {
                 System.out.print((char) i);
             }
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     // fluxuri de procesare cu acces aleatoriu
     private static void m5Write(String filePath, String line) {
-        try(RandomAccessFile randomAccessFile = new RandomAccessFile(filePath, "rw")) {
+        try (RandomAccessFile randomAccessFile = new RandomAccessFile(filePath, "rw")) {
             File file = new File(filePath);
             randomAccessFile.seek(file.length());
             randomAccessFile.write("\n".getBytes());

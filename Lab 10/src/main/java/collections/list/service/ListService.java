@@ -1,13 +1,6 @@
 package collections.list.service;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Deque;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class ListService {
 
@@ -22,7 +15,7 @@ public class ListService {
         names.add("Ana");
 
         //add at a particular index
-        names.add(0,"Teo");
+        names.add(0, "Teo");
 
 
         List<String> otherNames = new ArrayList<>();
@@ -32,7 +25,7 @@ public class ListService {
         otherNames.add("Maria");
         otherNames.add("John");
 
-       // names.addAll(otherNames);
+        // names.addAll(otherNames);
         names.addAll(1, otherNames);
 
         names.add("Teo");
@@ -104,9 +97,9 @@ public class ListService {
 
         System.out.println(ints);
 
-        Integer[] array2 = {2,3,4,5,6,7};
+        Integer[] array2 = {2, 3, 4, 5, 6, 7};
         List<Integer> list = Arrays.asList(array2);
-        array2[0] =11;
+        array2[0] = 11;
         list.set(1, 25);
         //list.add(123); //UnsupportedOperationException
 
@@ -150,7 +143,7 @@ public class ListService {
 
         System.out.println(Collections.binarySearch(otherNames, "Maria"));
         System.out.println(Collections.binarySearch(otherNames, "Mariana"));
-        System.out.println(Collections.binarySearch(otherNames,"Daniela"));
+        System.out.println(Collections.binarySearch(otherNames, "Daniela"));
 
         Collections.sort(otherNames, Collections.reverseOrder());
         System.out.println(otherNames);

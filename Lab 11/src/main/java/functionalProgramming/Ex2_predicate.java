@@ -1,18 +1,13 @@
 package functionalProgramming;
 
-import java.sql.SQLOutput;
 import java.util.List;
-import java.util.function.BiPredicate;
-import java.util.function.DoublePredicate;
-import java.util.function.IntPredicate;
-import java.util.function.LongPredicate;
-import java.util.function.Predicate;
+import java.util.function.*;
 
 public class Ex2_predicate {
 
     public static void main(String[] args) {
 
-        List<Integer> numbers = List.of (17, 13, 15, 23, 26, 235, 14);
+        List<Integer> numbers = List.of(17, 13, 15, 23, 26, 235, 14);
         Predicate<Integer> predicate = number -> number % 2 == 0;
         System.out.println(predicate.test(20));
 
@@ -31,10 +26,10 @@ public class Ex2_predicate {
         System.out.println(isBigger.test(11, 10));
 
         Predicate<String> p1 = a -> a.isEmpty();
-        Predicate<String> p2 = String ::isEmpty;
+        Predicate<String> p2 = String::isEmpty;
 
-        Predicate<String> startsWith = a-> a.startsWith("S");
-        Predicate<String> endsWith = a-> a.endsWith("t");
+        Predicate<String> startsWith = a -> a.startsWith("S");
+        Predicate<String> endsWith = a -> a.endsWith("t");
         Predicate<String> negatePredicate = startsWith.negate();
 
         Predicate<String> andPredicate = startsWith.and(endsWith);

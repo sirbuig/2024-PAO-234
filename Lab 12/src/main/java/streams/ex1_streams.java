@@ -15,7 +15,7 @@ public class ex1_streams {
         // finite streams
         Stream<String> empty = Stream.empty();
         Stream<Integer> singleElem = Stream.of(1);
-        Stream<Integer> fromArray = Stream.of(1,2,3);
+        Stream<Integer> fromArray = Stream.of(1, 2, 3);
         List<String> stringList = List.of("a", "b", "c");
         Stream<String> fromList = stringList.stream();
 

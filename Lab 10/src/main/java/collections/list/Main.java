@@ -2,9 +2,6 @@ package collections.list;
 
 import collections.list.service.ListService;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {

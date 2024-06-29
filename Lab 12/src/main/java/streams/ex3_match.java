@@ -24,15 +24,15 @@ public class ex3_match {
         result = infiniteStream.anyMatch(startsWithLetter);
         System.out.println(result);
 
-        List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         Optional<Integer> first = list.stream().findFirst();
-        if(first.isPresent())   {
+        if (first.isPresent()) {
             System.out.println(first.get());
         }
         System.out.println(first.isEmpty());
 
         Optional<Integer> any = list.stream().findAny();
-        if(any.isPresent())   {
+        if (any.isPresent()) {
             System.out.println(any.get());
         }
     }

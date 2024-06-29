@@ -15,7 +15,7 @@ public class UncheckedExceptions {
         // NullPointerException
         String s1 = null;
         //System.out.println(s1.length());
-        if (s1 != null ){
+        if (s1 != null) {
             System.out.println(s.length());
         } else {
             // throw an error
@@ -36,8 +36,8 @@ public class UncheckedExceptions {
     }
 
     private static int divide(int a, int b) {
-        if (b!=0) {
-            return a/b;
+        if (b != 0) {
+            return a / b;
         } else {
             throw new IllegalArgumentException("B is zero, not allowed when dividing");
         }

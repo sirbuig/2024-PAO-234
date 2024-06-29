@@ -1,11 +1,6 @@
 package streams;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.OptionalInt;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -49,7 +44,7 @@ public class ex5_reduce {
     }
 
     private static void collectExample() {
-        List<Integer> integers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         List<Integer> nr = integers.stream()
                 .filter(n -> n % 2 == 1)
                 .collect(Collectors.toList());
@@ -95,14 +90,14 @@ public class ex5_reduce {
     }
 
     private static void reduceSumExample() {
-        List<Integer> integers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         Integer sumReduced = integers.stream().reduce(10, (a, b) -> a + b);
         System.out.println(sumReduced);
 
         OptionalInt optionalInt = IntStream.range(1, 11).reduce((a, b) -> a + b);
         optionalInt.ifPresent(System.out::println);
 
-        integers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         Integer prodReduced = integers.stream().reduce(1, (a, b) -> a * b);
         System.out.println(prodReduced);
     }

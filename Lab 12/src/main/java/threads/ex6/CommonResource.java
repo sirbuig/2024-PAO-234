@@ -16,10 +16,10 @@ public class CommonResource {
     }
 
     public void produce() throws InterruptedException {
-        while (true)    {
+        while (true) {
             int valueProduced = new Random().nextInt(10);
-            synchronized (buffer)   {
-                while (buffer.size() == capacity)   {
+            synchronized (buffer) {
+                while (buffer.size() == capacity) {
                     System.out.println("Buffer is full, waiting...");
                     buffer.wait();
                 }
@@ -32,9 +32,9 @@ public class CommonResource {
     }
 
     public void consume() throws InterruptedException {
-        while (true)    {
-            synchronized (buffer)   {
-                while(buffer.isEmpty()) {
+        while (true) {
+            synchronized (buffer) {
+                while (buffer.isEmpty()) {
                     System.out.println("Buffer is empty, waiting...");
                     buffer.wait();
                 }

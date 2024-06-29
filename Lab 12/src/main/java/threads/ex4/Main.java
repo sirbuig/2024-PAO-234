@@ -14,7 +14,7 @@ public class Main {
         try {
             System.out.println("Current thread: " + Thread.currentThread().getName());
             thread1.join();
-        } catch (InterruptedException exception)    {
+        } catch (InterruptedException exception) {
             System.out.println("Exception caught");
         }
 
@@ -24,7 +24,7 @@ public class Main {
         try {
             System.out.println("Current thread: " + Thread.currentThread().getName());
             thread2.join();
-        } catch (InterruptedException exception)    {
+        } catch (InterruptedException exception) {
             System.out.println("Exception caught");
         }
 

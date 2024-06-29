@@ -18,7 +18,7 @@ public class Main {
         String wordSearched = scanner.next();
 
         List<FindWordInFile> countsRunnable = new ArrayList<>();
-        for (String file : files)   {
+        for (String file : files) {
             FindWordInFile fileCountingWords = new FindWordInFile(file, wordSearched);
             countsRunnable.add(fileCountingWords);
             Thread thread = new Thread(fileCountingWords);
@@ -26,12 +26,12 @@ public class Main {
         }
 
         long sum = 0;
-        for(FindWordInFile fileCountingWords : countsRunnable)   {
-            while (fileCountingWords.getWordCounter().isEmpty())    {
+        for (FindWordInFile fileCountingWords : countsRunnable) {
+            while (fileCountingWords.getWordCounter().isEmpty()) {
                 Thread.sleep(500);
             }
             System.out.println(fileCountingWords.getFilename() + " : " + fileCountingWords.getWordCounter().getAsLong());
-            sum +=  fileCountingWords.getWordCounter().getAsLong();
+            sum += fileCountingWords.getWordCounter().getAsLong();
         }
 
         System.out.println("Total number = " + sum);

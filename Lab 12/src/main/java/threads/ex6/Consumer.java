@@ -6,7 +6,7 @@ public class Consumer extends Thread {
 
     private final CommonResource resource;
 
-    public Consumer(String name, CommonResource resource)   {
+    public Consumer(String name, CommonResource resource) {
         this.name = name;
         this.resource = resource;
     }

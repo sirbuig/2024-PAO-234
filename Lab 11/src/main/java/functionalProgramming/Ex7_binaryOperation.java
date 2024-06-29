@@ -9,10 +9,10 @@ public class Ex7_binaryOperation {
 
     public static void main(String[] args) {
         BinaryOperator<Integer> sum = Integer::sum;
-        System.out.println(sum.apply(15,46));
+        System.out.println(sum.apply(15, 46));
 
         IntBinaryOperator sum2 = (a, b) -> a + b;
-        System.out.println(sum2.applyAsInt(12,23));
+        System.out.println(sum2.applyAsInt(12, 23));
 
         DoubleBinaryOperator sum3 = (a, b) -> Math.pow(a, b);
         LongBinaryOperator sum4 = (a, b) -> a * b;

@@ -9,5 +9,6 @@ public class ParentClass {
         throw new IOException();
     }
 
-    public void mySecondMethod() throws SQLException {}
+    public void mySecondMethod() throws SQLException {
+    }
 }

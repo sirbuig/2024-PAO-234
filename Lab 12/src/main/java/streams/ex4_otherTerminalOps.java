@@ -1,10 +1,6 @@
 package streams;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
-import java.util.OptionalDouble;
+import java.util.*;
 import java.util.stream.IntStream;
 
 public class ex4_otherTerminalOps {
@@ -32,7 +28,7 @@ public class ex4_otherTerminalOps {
         minName.ifPresent(System.out::println);
 
 
-        List<Integer> integers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         Optional<Integer> max = integers.stream().max(Integer::compareTo);
         max.ifPresent(System.out::println);
     }

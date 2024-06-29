@@ -1,11 +1,6 @@
 package collections.map.service;
 
-import javax.crypto.spec.PSource;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 
 public class MapService {
 
@@ -19,7 +14,7 @@ public class MapService {
         hashMap.put(1, "lion");
         hashMap.put(20, "tiger");
         hashMap.put(12, "cat");
-        hashMap.put(17 , "dog");
+        hashMap.put(17, "dog");
         String oldValue = hashMap.put(34, "giraffe");
         printValueAdded(oldValue, hashMap.get(34));
 
@@ -40,7 +35,7 @@ public class MapService {
         if (oldValue == null) {
             System.out.println("FIrst value added to this key is: " + newValue);
         } else {
-            System.out.println("Second value added to this key is: "+ newValue + ", before it was: " + oldValue);
+            System.out.println("Second value added to this key is: " + newValue + ", before it was: " + oldValue);
         }
     }
 

@@ -17,3 +17,24 @@ Abstract classes, Association, Builder, Singleton, Strings
 
 ### Lab 6
 Immutable, Interfaces, Validator
+
+### Lab 7
+Exceptions, Interfaces
+
+### Lab 8
+Files, Exceptions
+
+### Lab 9
+Database
+
+### Lab 10
+Collections
+
+### Lab 11
+Functional programming, Threads
+
+### Lab 12
+Streams, Threads
+
+### Exam model
+Solutions

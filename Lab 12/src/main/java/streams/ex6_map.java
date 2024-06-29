@@ -24,7 +24,7 @@ public class ex6_map {
         names = Arrays.asList("Robert", "Jack", "Jane", "Jackson");
         int namesLenSum = names.stream()
                 .mapToInt(String::length)
-                .reduce(0, (a, b) -> a+b);
+                .reduce(0, (a, b) -> a + b);
         System.out.println(namesLenSum);
 
         names = Arrays.asList("Robert", "Jack", "Jane", "Jackson");

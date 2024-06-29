@@ -35,8 +35,7 @@ public class Main {
 
                 angajati.add(new Angajat(cnp, nume, varsta, salariu));
             }
-        }
-        catch (SQLException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
 

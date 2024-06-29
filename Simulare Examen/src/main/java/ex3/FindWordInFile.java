@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.OptionalLong;
 import java.util.stream.Stream;
 
-public class FindWordInFile implements Runnable{
+public class FindWordInFile implements Runnable {
 
     private final String filename;
 
@@ -22,7 +22,7 @@ public class FindWordInFile implements Runnable{
         this.wordCounter = OptionalLong.empty();
     }
 
-    private long countWords()    {
+    private long countWords() {
         Path path = Paths.get(filename);
         try {
             Stream<String> lines = Files.lines(path);
@@ -39,7 +39,7 @@ public class FindWordInFile implements Runnable{
     public void run() {
         try {
             wordCounter = OptionalLong.of(countWords());
-        } catch (Exception e)   {
+        } catch (Exception e) {
             wordCounter = OptionalLong.of(0);
         }
     }

@@ -6,19 +6,20 @@ First, download the latest MySQL image from Docker Hub:
 
 `docker pull mysql`
 
-This will download the image on your local machine. 
+This will download the image on your local machine.
 With this image, you will need to create a container, in which your actual database will be run.
 You can set here the root user, password of the database, or you can change the port to which you will connect
 
 `docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:latest`
 
 Connect to the database, with the root credentials, in an SQL editor:
- - username: *root*
- - password: *the one you set in run command*
- - port: *3306* (if not changed when creating the container)
- - host: *localhost*
 
-Verify connection: 
+- username: *root*
+- password: *the one you set in run command*
+- port: *3306* (if not changed when creating the container)
+- host: *localhost*
+
+Verify connection:
 `select now() from dual;`
 
 Create a new database as root user:
@@ -30,7 +31,7 @@ grant all privileges on lab9.* to User;`
 
 ## Using stored procedure in database from Java app
 
-Procedure code, stored in database: 
+Procedure code, stored in database:
 
 `DELIMITER //
 CREATE PROCEDURE  insertPerson(OUT id int, IN name varchar(40), IN age double)

@@ -3,11 +3,7 @@ package functionalProgramming;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.function.BiConsumer;
-import java.util.function.Consumer;
-import java.util.function.DoubleConsumer;
-import java.util.function.IntConsumer;
-import java.util.function.LongConsumer;
+import java.util.function.*;
 
 public class Ex4_consumer {
 
@@ -45,8 +41,8 @@ public class Ex4_consumer {
     }
 
     private static void sayHelloToTeam(List<String> names) {
-        Consumer<String> sayHello = x -> System.out.println("Hello "+ x);
-        Consumer<String> sayWelcome = x -> System.out.println("Welcome "+ x);
+        Consumer<String> sayHello = x -> System.out.println("Hello " + x);
+        Consumer<String> sayWelcome = x -> System.out.println("Welcome " + x);
 
         Consumer<String> andThenConsumer = sayHello.andThen(sayWelcome);
         names.forEach(andThenConsumer);

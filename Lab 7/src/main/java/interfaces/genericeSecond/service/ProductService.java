@@ -26,8 +26,8 @@ public class ProductService {
     }
 
     private void initializeProducts() {
-        for(int i = 0; i < products.length; i++) {
-            products[i] = new Product("name "+ i, i+12, i*2.5);
+        for (int i = 0; i < products.length; i++) {
+            products[i] = new Product("name " + i, i + 12, i * 2.5);
         }
 
         products[0].setPrice(50);
